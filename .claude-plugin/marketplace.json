@@ -1,0 +1,13 @@
+{
+  "name": "drillable",
+  "description": "Drillable's developer tools — ground your coding agent in real, cited sources instead of guesses.",
+  "owner": { "name": "Drillable", "url": "https://drillable.com" },
+  "plugins": [
+    {
+      "name": "use-drillable",
+      "source": "./",
+      "description": "Makes your coding agent ground a reference claim — the MCP spec, agent practices, networking, units, and more — in a cited source instead of guessing.",
+      "version": "0.1.0"
+    }
+  ]
+}

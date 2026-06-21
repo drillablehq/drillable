@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "drillable": {
+      "type": "http",
+      "url": "https://mcp.drillable.com/mcp"
+    }
+  }
+}
