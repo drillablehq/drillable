@@ -28,6 +28,11 @@ with that product.
 /plugin install use-drillable@drillable
 ```
 
+That one `drillable` marketplace also carries **drillable-context** (grounds your agent in *your
+own project's* facts) — install it too with `/plugin install drillable-context@drillable`. The
+marketplace is the same whichever repo you add it from. All the developer tools are at
+[drillable.com/dev](https://drillable.com/dev).
+
 Ships **disabled** (`defaultEnabled: false`): it connects to an external service and your queries
 are logged as demand signal, so enabling it is an explicit choice.
 
@@ -37,5 +42,5 @@ are logged as demand signal, so enabling it is an explicit choice.
 claude plugin validate ./ --strict
 ```
 
-Confirm the root-as-plugin `source: "./"` in `marketplace.json` and the remote MCP `type`/`url` in
-`.mcp.json`.
+Confirm each plugin resolves from its GitHub `source` in `marketplace.json` and the remote MCP
+`type`/`url` in `.mcp.json`.

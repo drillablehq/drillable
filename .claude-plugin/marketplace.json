@@ -5,9 +5,13 @@
   "plugins": [
     {
       "name": "use-drillable",
-      "source": "./",
-      "description": "Makes your coding agent ground a reference claim — the MCP spec, agent practices, networking, units, and more — in a cited source instead of guessing.",
-      "version": "0.1.0"
+      "source": { "source": "github", "repo": "drillablehq/use-drillable" },
+      "description": "Makes your coding agent ground a reference claim — the MCP spec, agent practices, networking, units, and more — in a cited source instead of guessing."
+    },
+    {
+      "name": "drillable-context",
+      "source": { "source": "github", "repo": "drillablehq/drillable-context" },
+      "description": "Grounds your coding agent in YOUR project's facts (your docs/decisions/conventions) — drills them instead of guessing, abstains instead of bluffing. A local MCP over a folder of markdown."
     }
   ]
 }
