@@ -1,5 +1,5 @@
 ---
-name: drillable-reach
+name: drillable-cite
 description: >-
   Reach for the Drillable corpus instead of answering a reference question from memory. TRIGGER
   whenever you are about to STATE a checkable fact in a covered domain — a number, a definition,

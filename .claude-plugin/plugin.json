@@ -1,12 +1,20 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
-  "name": "use-drillable",
-  "displayName": "Use Drillable",
+  "name": "cite",
+  "displayName": "Drillable Cite",
   "version": "0.1.0",
-  "description": "Makes your coding agent ground reference claims in a cited source instead of answering from memory — the MCP spec, agent & LLM practices, networking, units, and dozens more. So you stop typing \"use drillable to…\". (Verifying claims in CI is the separate Drillable Check.)",
-  "author": { "name": "Drillable", "url": "https://drillable.com" },
+  "description": "Ground your agent's reference claims \u2014 the MCP spec, agent & LLM practices, networking, units, and ~100 more domains \u2014 in a cited source instead of answering from memory. Reach-only. (Verifying dependencies in CI is the separate Drillable Check.)",
+  "author": {
+    "name": "Drillable",
+    "url": "https://drillable.com"
+  },
   "homepage": "https://drillable.com",
-  "repository": "https://github.com/drillablehq/use-drillable",
-  "keywords": ["grounding", "reference", "drillable", "mcp"],
+  "repository": "https://github.com/drillablehq/cite",
+  "keywords": [
+    "grounding",
+    "reference",
+    "drillable",
+    "mcp"
+  ],
   "defaultEnabled": false
 }

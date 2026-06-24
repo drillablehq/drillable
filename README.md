@@ -1,5 +1,9 @@
 # Use Drillable
 
+> **Renamed (2026-06-24):** this plugin was `use-drillable`. It is now **`cite`**, installed from the
+> `drillablehq/marketplace` marketplace (`/plugin install cite@drillable`). Old installs keep working;
+> reinstall under the new name to get updates.
+
 A Claude Code plugin that makes your **coding agent ground reference claims** in a real,
 [Drillable](https://drillable.com)-cited source instead of answering from memory — the MCP spec,
 agent & LLM practices, networking, units, and dozens more. So you stop prefixing prompts with
@@ -24,12 +28,12 @@ with that product.
 ## Install
 
 ```
-/plugin marketplace add drillablehq/use-drillable
-/plugin install use-drillable@drillable
+/plugin marketplace add drillablehq/marketplace
+/plugin install cite@drillable
 ```
 
 That one `drillable` marketplace also carries **drillable-context** (grounds your agent in *your
-own project's* facts) — install it too with `/plugin install drillable-context@drillable`. The
+own project's* facts) — install it too with `/plugin install context@drillable`. The
 marketplace is the same whichever repo you add it from. All the developer tools are at
 [drillable.com/dev](https://drillable.com/dev).
 
