@@ -7,8 +7,7 @@ units, and ~100 more domains) get grounded against the corpus, and where there's
 
 ```
 /plugin marketplace add drillablehq/marketplace
-/plugin install drillable@dev
-/plugin enable drillable@dev        # then /reload-plugins
+/plugin install drillable@drillable
 ```
 
 No account, no key — the reference corpus is a no-auth gateway. That's the whole install; your agent

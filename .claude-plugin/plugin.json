@@ -17,5 +17,5 @@
     "drillable",
     "mcp"
   ],
-  "defaultEnabled": false
+  "defaultEnabled": true
 }
