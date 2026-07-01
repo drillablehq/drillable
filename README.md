@@ -35,6 +35,20 @@ your files stay your source of truth:
 claude mcp add drillable-context -- npx -y drillable-context --facts-dir /path/to/your/docs --name context
 ```
 
+## Optionally: drill your own *session history*
+
+Turn your own Claude Code sessions into a grounded, searchable record — *"what did I do about X", "when did
+I last touch Y", "how did we decide Z"* — answered from the actual turn, not recall. One command reads
+`~/.claude/projects`, indexes it locally, and prints the line to wire it in:
+
+```
+npx -y drillable-context sessions
+```
+
+Runs locally (your transcripts never leave your machine), converts incrementally, and stays current on its
+own — new sessions are picked up automatically. Scoped to the current project by default; `project="all"`
+spans every repo.
+
 ## Gate your dependencies in CI
 
 The same grounding, enforced on every PR: **[drillable check](https://github.com/drillablehq/check)**
