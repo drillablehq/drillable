@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "drillable",
   "displayName": "Drillable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ground your coding agent \u2014 audit its work against cited sources instead of guesses. Install it and your agent grounds reference claims against the 100+ domain corpus, says \"no record\" instead of bluffing, and (optionally) grounds your project's own docs too.",
   "author": {
     "name": "Drillable",
